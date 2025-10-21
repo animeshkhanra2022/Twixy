@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-import './App.css'
 
 function App() {
+  const name = console.log(import.meta.env.VITE_APPWRITE_URL)
 
   return (
     <>
