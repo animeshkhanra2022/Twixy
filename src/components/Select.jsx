@@ -6,8 +6,8 @@ const Select = ({
     className='',
     ...props
 
-}) => {
-    const id = useId
+}, ref) => {
+    const id = useId()
   return (
     <div className='w-full'>
         {lable && <lable htmlFor={id} className='' ></lable>}

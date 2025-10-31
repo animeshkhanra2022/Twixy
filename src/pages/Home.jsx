@@ -12,7 +12,7 @@ function Home() {
                 setPosts(posts.documents)
             }
         })
-    }, [third])
+    }, [])
     
   if (posts.length === 0) {
         return (
