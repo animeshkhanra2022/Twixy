@@ -15,6 +15,9 @@ export default function RTE({name, control, label, defaultValue =""}) {
     render={({field: {onChange}}) => (
         <Editor
         apiKey={conf.tinyMceApiKey}
+        Origin={"https://twixy-one.vercel.app"}
+        Editor readonly={true}
+        Tiny Cloud entry URL={"https://cdn.tiny.cloud/1/kfgxtydu01ose3uexsdxrls2yxb84wll9eo7dhuqnjnv3i9h/tinymce/8/tinymce.min.js"}
         initialValue={defaultValue}
         init={{
             initialValue: defaultValue,
